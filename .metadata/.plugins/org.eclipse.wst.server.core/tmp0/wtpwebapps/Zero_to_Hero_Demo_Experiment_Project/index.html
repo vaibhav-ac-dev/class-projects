@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Garage Management System</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#vehicles">Vehicles</a></li>
+                <li><a href="#add-vehicle">Add Vehicle</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="dashboard" class="active">
+    <h2>Dashboard</h2>
+    <div class="stats">
+        <div class="stat">
+            <h3>Total Vehicles</h3>
+            <p id="total-vehicles">0</p>
+        </div>
+        <div class="stat">
+            <h3>Vehicles In Service</h3>
+            <p id="in-service">0</p>
+        </div>
+        <div class="stat">
+            <h3>Completed Services</h3>
+            <p id="completed">0</p>
+        </div>
+    </div>
+    <div class="charts">
+        <canvas id="status-chart"></canvas>
+    </div>
+</section>
+
+            <section id="vehicles">
+                <h2>Vehicles</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vehicle ID</th>
+                            <th>Owner</th>
+                            <th>Model</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vehicle-list">
+                        <!-- Vehicle rows will be inserted here by JavaScript -->
+                    </tbody>
+                </table>
+            </section>
+            <section id="add-vehicle">
+                <h2>Add Vehicle</h2>
+                <form id="vehicle-form">
+                    <label for="owner">Owner</label>
+                    <input type="text" id="owner" name="owner" required>
+                    <label for="model">Model</label>
+                    <input type="text" id="model" name="model" required>
+                    <label for="status">Status</label>
+                    <select id="status" name="status" required>
+                        <option value="Pending">Pending</option>
+                        <option value="In Service">In Service</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                    <button type="submit">Add Vehicle</button>
+                </form>
+            </section>
+            <section id="schedule">
+                <h2>Schedule</h2>
+                <p>Schedule of service appointments will be here.</p>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

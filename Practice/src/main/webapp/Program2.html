@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	input[type="text"]{
+		width: 400px;
+		height: 40px;
+		border: 2px solid black;
+	}
+	input[type="submit"]{
+		width: 100px;
+		height: 30px;
+		background-color: skyblue;
+	}
+</style>
+
+<script type="text/javascript">
+	function calAdd(){
+		var first=parseInt(document.getElementById("one").value);
+		var second=parseInt(document.getElementById("second").value);
+		document.write("Addition is = "+(first+second));
+	}
+</script>
+
+</head>
+<body>
+	<center>
+	
+	<input type="text" id="one" value="" placeholder="enter first number"/><br/><br/>
+	<input type="text" id="second" value="" placeholder="enter second number"/><br/><br/>
+	<input type="submit" value="Calculate" onclick="calAdd()"/>
+	</center>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+	input[type="text"]{
+		width: 400px;
+		height: 40px;
+		border: 2px solid black;
+	}
+	input[type="submit"]{
+		width: 100px;
+		height: 30px;
+		background-color: skyblue;
+	}
+</style>
+<script type="text/javascript">
+	function showText(){
+		var inputTag=document.getElementById("txt");
+		var text=inputTag.value;
+		alert(text);
+	}
+</script>
+</head>
+<body>
+	<center>
+	<input type="text" id="txt" value=""/><br><br>
+	<input type="submit" value="Submit" onclick="showText()"/>
+</center>
+</body>
+</html>

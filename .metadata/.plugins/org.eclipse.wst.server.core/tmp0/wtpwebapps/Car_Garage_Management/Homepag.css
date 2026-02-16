@@ -1,0 +1,218 @@
+@charset "UTF-8";
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/*==============================================================================================*/
+/*MY  applied css start*/
+/*==============================================================================================*/
+
+/*style="position:sticky; top:0; z-index:999;"*/
+
+a{
+	display: flex;
+	text-align: center;
+}
+
+a.nav-link{
+	border: 1px solid orangered;
+	border-radius: 10px;
+	margin:3px;
+}
+a.nav-link:hover{
+	background-color: orangered;
+	color: black;
+}
+
+/*==============================================================================================*/
+/*MY  applied css end*/
+/*==============================================================================================*/
+
+
+
+
+body
+{
+   background-color: black;
+}
+.mt-2
+{
+  margin-left: 1%;
+}
+.mt-2 span
+{
+  color: red;
+}
+
+.carsoul img
+{
+  transition: 1s ease;
+}
+.carsoul img:hover
+{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+/* .container */
+
+  /* border: 1px solid black; */
+
+.about h1
+{
+  text-align: center;
+  margin-top: 2%;
+  background-color: gray;
+}
+.about span
+{
+  color: red;
+}
+.about img
+{
+  width: 100%;
+  margin-top: 2%;
+}
+.Services
+{
+  margin-top: 5%;
+}
+.Services h2
+{
+  text-align: center;
+  background-color: gray;
+  margin-top:5%;
+}
+.Services span
+{
+  color: red;
+}
+.Services img
+{
+  width: 50%;
+  height: 40%;
+  transition: 1s ease;
+  
+}
+.Services img:hover
+{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  background-color: black;
+}
+.servic
+{
+  color: red;
+}
+.Team h2 
+{
+  text-align: center;
+  background-color: gray;
+  margin-top: 2%;
+}
+#Team
+{
+  width: 100%;
+}
+.Team span
+{
+  color: red;
+} 
+.Team img
+{
+  width: 80%;
+  height: 80%;
+}
+.Team img:hover
+{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  
+}
+.p
+{
+  color: red;
+}
+#Review
+{
+  display: flex;
+  width: 100%;
+}
+.textR h2
+{    text-align: center;
+     margin-top: 4%;
+     background-color: gray;
+     
+  
+     
+}
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.textR span
+{
+  color: red;
+}
+.Contact span
+{
+  
+  color: red;
+
+}
+.Contact h2
+{
+  text-align: center;
+  margin-top: 2%;
+  background-color: gray;
+  margin-bottom: 1%;
+}
+
+.button
+{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    
+    padding: 14px 50px;
+    border-radius: 4px;
+    text-decoration:none;
+    color: white;
+}
+#contact
+{
+  background-color: #ff004f;;
+}
+#footer
+{
+  width: 100%;
+}
+#footer h2
+{
+  text-align: center;
+  background-color: gray;
+  margin-top: 2%;
+}
+#footer span
+{
+  color: red;
+}

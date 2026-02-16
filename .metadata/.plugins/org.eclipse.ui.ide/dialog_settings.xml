@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\test folder\Alumini_Management_System\Alumni_Managment_System"/>
+			<item value="D:\ProjectsWorkSpace\Garage_Management"/>
+			<item value="P:\Projects\training-institute-projects\Garage_Management"/>
+			<item value="D:\ProjectsWorkSpace\Car_Garage_Management_Console"/>
+		</list>
+	</section>
+</section>

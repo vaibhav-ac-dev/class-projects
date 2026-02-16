@@ -1,0 +1,14 @@
+package petrolpump.admin.repository;
+
+import petrolpump.admin.config.DBConfig;
+import petrolpump.admin.model.MachineModel;
+
+public class MachineRepositoryImpl extends DBConfig implements MachineRepository{
+
+	@Override
+	public boolean isAddNewMachine(MachineModel model) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
